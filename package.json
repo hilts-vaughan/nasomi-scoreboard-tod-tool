@@ -1,0 +1,39 @@
+{
+  "name": "nasomi-scoreboard-tod-tool",
+  "version": "1.0.1",
+  "description": "A tool that will track and monitor the NM Scoreboard for the Naosmi Scoreboard to try and find TODs for NMs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -w ./test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilts-vaughan/nasomi-scoreboard-tod-tool.git"
+  },
+  "keywords": [
+    "nasomi"
+  ],
+  "author": "hilts.vaughan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hilts-vaughan/nasomi-scoreboard-tod-tool/issues"
+  },
+  "homepage": "https://github.com/hilts-vaughan/nasomi-scoreboard-tod-tool#readme",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "cheerio": "^1.0.0-rc.2",
+    "config": "^2.0.1",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "mysql": "^2.16.0",
+    "node-cron": "^2.0.3",
+    "redis": "^2.8.0",
+    "sleep": "^5.2.3",
+    "superagent": "^4.0.0-beta.5",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
